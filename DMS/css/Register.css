@@ -1,0 +1,162 @@
+
+
+body
+{
+background-image: linear-gradient(to bottom right, rgba(108,198,260,0.95), rgba(14,0,0.5,1));
+background-repeat:no-repeat;
+min-height:100vh;
+overflow: hidden;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.Container
+{
+  position:absolute;
+  top:10%;
+  left:37%;
+  width:390px;
+  height:650px;
+  background:white;
+  border-radius:5px;
+}
+
+
+.Container .fa-regular
+{
+  font-size:45px;
+  padding:0 4px;
+}
+
+.Container h1
+{
+  text-align:center;
+  padding:0 0 20px 0;
+  border-bottom:2px solid black;
+}
+
+
+.Container form
+{
+  padding:0 90px;
+  box-sizing: border-box;
+}
+
+
+form .txt
+{
+  position:relative;
+  border-bottom:2px solid #adadad;
+  margin:20px 0;
+}
+
+.txt input
+{
+  width:100%;
+  padding:0 5px;
+  height:40px;
+  font-size:16px;
+  border:none;
+  background:none;
+  outline:none;
+}
+
+.txt input[type=date]
+{
+  color:transparent;
+  transition:0.7s;
+}
+
+
+.select label
+{
+  position:absolute;
+  top:48%;
+  left:5px;
+  font-size:17px;
+  color:#adadad;
+  padding:5px 85px;
+  pointer-events:none;
+  transition:0.5s;
+}
+
+.txt label
+{
+  position:absolute;
+  top:50%;
+  left:5px;
+  font-size:17px;
+  color:#adadad;
+  transform:translateY(-50%);
+  pointer-events:none;
+  transition:0.5s;
+}
+
+.select label
+{
+  margin-top:-13px;
+  margin-left:78px;
+  padding:3px 10px;
+  outline:none;
+  border-radius:5px;
+}
+
+.select select 
+{
+  margin-top:4px;
+  margin-left:120px;
+  border:none;
+  color:#adadad;
+  font-size:17px; 
+}
+
+
+.txt span::before
+{
+  content:'';
+  position:absolute;
+  top:40px;
+  left:0;
+  width:0;
+  height:2px;
+  background:#46c2f0;
+  transition:0.5s;
+}
+  
+
+.txt input[type="date"]:focus,
+.txt input[type="date"]:valid
+{
+  color:black;
+}
+
+.txt input:focus ~ label,
+.txt input:valid ~ label{
+  top:-5px;
+  color: #46c2f0;
+}
+
+.txt input:focus ~ span::before,
+.txt input:valid ~ span:before
+{
+  width:100%;
+}
+
+
+input[type="submit"]
+  {
+    width:60%;
+    height:50px;
+    border:1px solid;
+    background:#46c2f0;
+    color:white;
+    font-size:19px;
+    border-radius:25px;
+    font-weight:570;
+    cursor:pointer;
+    margin:0 30px;
+
+
+  }
+
+
+

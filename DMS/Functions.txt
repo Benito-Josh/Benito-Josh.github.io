@@ -1,0 +1,12 @@
+apply customer (request)
+nic
+phone (otp)
+choose blood type
+send mail
+generate qr
+login - inbox
+
+admin
+view request
+search blood - last blood donate
+send mail

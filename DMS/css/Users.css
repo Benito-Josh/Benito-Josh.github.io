@@ -1,0 +1,43 @@
+#Users
+{
+    margin-top:10%;
+    width:100%;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+.container
+{
+    margin-left:200px;
+}
+
+#Users th,tr
+{
+    padding: 10px 0px 10px 0px;
+    /* border:1px solid #ddd; */
+}
+
+th:first-child
+{
+    border-top-left-radius:8px;
+}
+th:last-child
+{
+    border-top-right-radius:8px;
+}
+
+#Users th
+{
+color:white;
+background-color: rgb(20, 21, 68);
+}
+
+td
+{
+    color:black;
+    text-align:center;
+    padding:5px 0px;
+}
+
+
+
